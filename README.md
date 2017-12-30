@@ -2,15 +2,20 @@
 A Python match-three game
 
 ########################### INTRODUCTION ###########################
+
 This textfile describes the purpose of every file within the ManaSwap folder.
 To ensure the game functions properly, do not move or alter any files.
 
+
 ########################### HOW TO START MANASWAP ###########################
+
 Step 1 - Double-click on main.py
 Step 2 - Wait. Do not delete the black window.
 Step 3 - Play the game.
 
+
 ########################### MANASWAP FOLDER ###########################
+
 main.py -     This is the primary executable of ManaSwap. It takes functions from manaLib.py
 	      and combines them into functions that generate menus. These menus make up the
 	      entirety of the game. Double-click on this file to execute ManaSwap.
@@ -25,11 +30,15 @@ __pycache__ - This folder will be created when you run main.py. Deleting this fo
 	      creates no problems, however, running main.py once more will simply create another
 	      __pycache__.
 
+
 ########################### ASSETS FOLDER ###########################
+
 The assets folder contains various images, textfiles, fontfiles and soundfiles 
 used in the game. There are six distinct folders within the assets folder.
 
+
 ########### DIALOGUE FOLDER
+
 The dialogue folder contains 24 .txt files. These textfiles are used to store
 in-game dialogue. The textfiles have been carefully formatted, so adding new lines  
 or deleting pre-existing ones may cause undesirable results.
@@ -44,23 +53,29 @@ aaa, ppp, ttt, uuu, etc - These textfiles are denoted with a sequence of letters
 	      These files are called by treasures_menu() in main.py. Do NOT attempt to alter 
         these files.
 
+
 ########### FONTS FOLDER
+
 The fonts folder contains 2 .ttf files. These are two unique fonts "fawnscript"
 and "vani", stored in "fawn.ttf" and "vani.ttf" respectively, and they are used
 to create fancy lettering for the game's text. These .ttf files are called
 throughout main.py and in some functions in manaLib.py, whenever text needs to
 be displayed on the screen. Do NOT attempt to alter these files.
 
+
 ########### IMAGES FOLDER
+
 The images folder contains 4 .png files, which are 55 x 55 images of the different
 coloured gems used by various functions in main.py and manaLib.py. Do NOT attempt 
 to alter these files.
 
 ########### SAVEDATA FOLDER
+
 The savedata folder contains 2 .txt files, which track the player's progress
 through the game. It is highly recommended that you do NOT alter these files, however, you 
 can cheat by altering some of the file data. Make sure that the new data that you enter
 follows the pre-existing format of the file, otherwise the game may break.
+
 
 highscores.txt - This consists of different player names and their scores stored from greatest at the top to 
 		 lowest at the bottom. Different players and their scores are located on their own line, with 
@@ -76,6 +91,7 @@ highscores.txt - This consists of different player names and their scores stored
 			Make sure that you do not add any empty lines between entries or any data
 	   	 that is not formatted exactly as described above. 
 
+
 treasures.txt  - This file begins with an integer at the beginning, representing the player's mana
 		 points. In each successive line, there is a sequence of letters, a comma, and an integer 
 		 value. These string and number entries are the different Treasures available in-game
@@ -90,7 +106,9 @@ treasures.txt  - This file begins with an integer at the beginning, representing
 		 the number you enter is not negative or a decimal. You can increase the integer to as
 		 large as you would like, however there is no benefit to having a value greater than 3.
 
+
 ########### SOUNDEFFECTS FOLDER
+
 The soundeffects folder contains 2 .wav files, which are used as sound-effects for the game. Do not
 attempt to alter these files.
 
@@ -100,7 +118,9 @@ gem_break_sound.wav   - Commonly used when the player clicks a menu button or br
 gem_landing_sound.wav - Used when the gems hit the ground after they fall. This is triggered by
 			play_thump()
 
+
 ########### SOUNDTRACK FOLDER
+
 The soundtrack folder contains 4 .mp3 files, which make up the game's soundtrack. By default
 "theme.mp3" is played. To play one of three other songs, click on the gems in the main
 menu. This is a secret feature.
