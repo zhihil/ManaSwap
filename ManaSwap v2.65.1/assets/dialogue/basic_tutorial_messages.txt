@@ -1,0 +1,44 @@
+Welcome to ManaSwap, prospector!
+Your goal is to match these gems so
+they make a matching row or column.
+(Click anywhere to continue.)
+A matching row or column is when
+3 or more gems of the same colour
+line up.
+(Click anywhere to continue.)
+Try it! Select the red gem, the one that
+is highlighted.
+
+(Left-click on the red gem)
+Now select the blue gem, highlighted in
+red.
+
+(Left-click on the blue gem)
+See how the gems disappeared prospector?
+They were collected to increase your
+Mana Points or your score.
+(Click anywhere to continue.)
+Your Mana Points here have increased by
+150, because you matched 3 gems. The
+longer your matching row or column...
+(Click anywhere to continue.)
+...the more points you'll earn. If you
+match 4 gems, you'll get 300 points. If
+you match 5 gems, you'll get 500, etc.
+(Click anywhere to continue).
+Notice that your number of moves was 1,
+but went down to 0. When this number hits
+0, it's game over!
+(Click anywhere to continue.)
+Get as many points as you can before
+running out of moves. Your score is
+recorded in the "highscores" menu.
+(Click anywhere to continue.)
+You can also click exit here if you want 
+to end the game early.
+
+(Click anywhere to continue.)
+Good luck, prospector!
+
+(Click exit to end this tutorial)
+
